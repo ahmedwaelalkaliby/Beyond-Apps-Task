@@ -1,9 +1,11 @@
-import Image from "next/image";
+ 
+import Header from "./_Components/Header";
 
 export default function Home() {
   return (
-    <h1>
+    <>
+      <Header />  
       welcome next App
-    </h1>
+    </>
   );
 }

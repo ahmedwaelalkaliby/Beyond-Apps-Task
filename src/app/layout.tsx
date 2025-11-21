@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     title: "UVER – University Search &  Recommendation Platform",
     description:
       "UVER is website that show college informations, makes college search easy, personal college recommendations, Engaging Experts Chat, and submiting applications seamlessly, Your ultimate college search and recommendation platform.",
+    url : "", //TODO 1: add website URL
     siteName: "UVER",
     locale: "en_US",
     type: "website",
