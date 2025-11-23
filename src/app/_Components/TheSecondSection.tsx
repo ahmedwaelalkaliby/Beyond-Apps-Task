@@ -174,8 +174,8 @@ export default function TheSecondSection() {
             key={item.id}
             className={`pl-4 border-l-2 transition-colors duration-300 ${
               activeSection === item.id
-                ? "text-white text-3xl font-semibold border-blue-500 active"
-                : "text-gray-400 text-2xl hover:text-white border-transparent"
+                ? "text-white text-2xl font-semibold border-blue-500 active"
+                : "text-gray-400 text-xl hover:text-white border-transparent"
             }`}
             onClick={(e) => {
               e.preventDefault();

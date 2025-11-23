@@ -1,28 +1,14 @@
 "use client";
 
-import { useEffect, useRef } from "react";
 import Image from "next/image";
-import { gsap } from "gsap";
+
 
 function MobileMockup() {
-  const deviceRef = useRef<HTMLDivElement>(null);
+  
 
-  useEffect(() => {
-    if (deviceRef.current) {
-      
-      gsap.to(deviceRef.current, {
-        rotationY: 360,
-        duration: 10,
-        ease: "linear",
-        repeat: -1, 
-        transformOrigin: "50% 50%",
-      });
-    }
-  }, []);
 
   return (
     <div
-      ref={deviceRef}
       id="device"
       className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px]"
       style={{ transformStyle: "preserve-3d" }}

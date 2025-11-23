@@ -94,16 +94,16 @@ export default function Landing() {
 
     {/* LEFT TEXT */}
     <div className="flex flex-col max-w-sm text-left animate">
-      <p className="text-2xl leading-relaxed">
+      <p className="text-xl leading-relaxed">
         Discover, apply, succeed – UVER makes college search effortless.
         Your future starts right here.
       </p>
 
       <div className="mt-6">
-        <p className="text-2xl mb-2">⏳ Launching starts in</p>
+        <p className="text-lg mb-2">⏳ Launching starts in</p>
 
         {/* LEFT aligned countdown */}
-        <div className="flex justify-start gap-3 text-4xl font-semibold">
+        <div className="flex justify-start gap-3 text-3xl font-semibold">
           <span>{days}</span> : <span>{hours}</span> : <span>{minutes}</span>
         </div>
 
@@ -117,7 +117,7 @@ export default function Landing() {
     </div>
 
     {/* RIGHT ICON LIST */}
-    <div className="flex flex-col gap-4 text-2xl text-left animate">
+    <div className="flex flex-col gap-4 text-lg text-left animate">
       <p>🔍 SEARCH</p>
       <p>💬 CHAT</p>
       <p>📄 APPLY</p>
