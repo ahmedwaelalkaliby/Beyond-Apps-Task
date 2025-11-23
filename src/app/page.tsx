@@ -1,7 +1,7 @@
  
 import CollegeSteps from "./_Components/CollegeSteps";
 import Header from "./_Components/Header";
-import TheFirstSection from "./_Components/TheFirstSection";
+import Landing from "./_Components/Landing";
 import TheSecondSection from "./_Components/TheSecondSection";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
     <>
       
       <Header />  
-      <TheFirstSection />
+      <Landing />
       <TheSecondSection />
       <CollegeSteps />
     

@@ -201,7 +201,7 @@ export default function TheSecondSection() {
 
       {/* Mobile Mockup */}
       <div ref={mockupRef}>
-        <MobileMockup {...({ activeSection } as any)} />
+        <MobileMockup {...({ activeSection } as any )} />
       </div>
 
     </div>

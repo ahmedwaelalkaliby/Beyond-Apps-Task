@@ -102,13 +102,13 @@ export default function CollegeSteps() {
 
         ))}
 
-        <div className="relative rounded-3xl shadow-lg overflow-hidden group">
+        <div className="relative rounded-3xl shadow-lg overflow-hidden group sm:h-[310px]">
           <Image
             alt="Students celebrating graduation"
-            className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+            className="object-cover transform group-hover:scale-105 transition-transform duration-300"
             src="/college.png"
-            height={512}
-            width={512}
+            height={310}
+            width={400}
           />
           <div className="absolute inset-0 bg-black/35 flex flex-col justify-end p-8 text-white">
             <h2 className="text-2xl font-bold mb-2">

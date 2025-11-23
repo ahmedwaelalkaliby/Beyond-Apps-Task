@@ -35,7 +35,7 @@ const useCountdown = (targetDate: string) => {
   };
 };
 
-export default function TheFirstSection() {
+export default function Landing() {
   const { days, hours, minutes } = useCountdown("2025-12-31T00:00:00");
 
   const phoneRef = useRef<HTMLDivElement>(null);
