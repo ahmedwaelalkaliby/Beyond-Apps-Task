@@ -1,4 +1,5 @@
  
+import CollegeApplication from "./_Components/CollegeApplication";
 import CollegeSteps from "./_Components/CollegeSteps";
 import Header from "./_Components/Header";
 import Landing from "./_Components/Landing";
@@ -12,7 +13,7 @@ export default function Home() {
       <Landing />
       <TheSecondSection />
       <CollegeSteps />
-    
+      <CollegeApplication/>
     </>
   );
 }
