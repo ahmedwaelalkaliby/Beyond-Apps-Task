@@ -3,6 +3,9 @@ import React, { useEffect, useRef } from 'react'
 import ScreensCard from './ScreensCard';
 import { IoArrowForward } from 'react-icons/io5';
 import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function CollegeApplication() {
   const headerRef = useRef(null);
@@ -18,7 +21,13 @@ export default function CollegeApplication() {
         x: 0,
         opacity: 1,
         duration: 1,
-        ease: "power3.out"
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: headerRef.current,
+          start: "top 80%", // Animation starts when top of element hits 80% of viewport
+          end: "bottom 20%",
+          toggleActions: "play none none reverse" // play on enter, reverse on leave
+        }
       }
     );
   }, []);
